@@ -1,0 +1,185 @@
+/*      Default Layout: 1331px. 
+        Gutters: 24px.
+        Outer margins: 48px.
+        Leftover space for scrollbars @1024px: 32px.
+------------------------------------------------------------------------------- */
+
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+#box{
+width: 46%;
+margin-top: 2%;
+height: 97%;
+margin-left: 0%;
+}
+
+#box1{
+width: 46%;
+margin-top: 2%;
+height: 97%;
+margin-left: 0%;
+}
+
+#box2{
+width: 94.6%;
+margin-top: 2%;
+height: 97%;
+margin-left: 0%;
+margin-top: 2%;
+}
+
+.project_box h2{
+width:20%;
+margin-left: 42%;
+}
+
+
+#box h2{
+width: 30%;
+height: 10%;
+margin-left: 32%;
+font-size: medium;
+}
+
+#box h3{
+width: 30%;
+height: 10%;
+margin-left: 70%;
+}
+
+#box1 h4{
+width: 30%;
+height: 10%;
+margin-left: 70%;
+padding-top: 3px;
+}
+
+#box p{
+width:94%;
+margin-top: -3%;
+overflow: -moz-hidden-unscrollable;
+height: 77%;
+}
+
+#box1 p{
+width:94%;
+margin-top: 4%;
+overflow: -moz-hidden-unscrollable;
+height: 77%;
+}
+
+}
+
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+	nav .logo { padding-top: 8px }
+	nav .menu-toggle { display: inline-block }
+	nav .menu { display: none; clear: both }
+	nav .menu > ul { float: none }
+	nav .menu li { width: 100%; border: 0 }
+	nav .menu li:last-child { margin: 0 0 15px 0 }
+	nav .menu li a,
+	nav .open-submenu {
+		display: block;
+		background: white;
+		padding: 10px;
+		margin: 2px 0 0 0;
+		border: 1px solid black;
+	}
+	nav .menu ul ul {
+		position: static;
+		background: transparent;
+		display:none
+	}
+	nav .menu ul ul a { background: transparent }
+	nav .menu ul ul a:hover { background: #FFBB22 }
+
+
+#box{
+width:93%;
+margin-top: 20px;
+margin-left: -9px;
+}
+
+#box1{
+width: 93%;
+height: 336px;
+margin-right: 3.33%;
+background: #999999;
+float: left;
+border: 1px solid black;
+margin-top: 2%;
+margin-left: -9px;
+}
+
+#box2{
+width: 92.8%;
+height: 336px;
+margin-right: 3.33%;
+background: #999999;
+float: left;
+border: 1px solid black;
+margin-top: 2%;
+margin-left: 0px;
+margin-left: -7px;
+}
+
+.project_box h2{
+width:31%;
+margin-left: 32%;
+margin-top: 36px;
+text-align: center;
+}
+
+#box h2{
+width: 17%;
+height: 10%;
+margin-left: 42%;
+text-align: center;
+font-size: medium;
+margin-top: 2%;
+}
+
+#box h3{
+width: 43%;
+height: 10%;
+margin-left: 57%;
+}
+
+#box h4{
+width: 43%;
+height: 10%;
+margin-left: 57%;
+padding-top: 5px;
+}
+
+#box p{
+width:94%;
+margin-top: -3%;
+overflow: -moz-hidden-unscrollable;
+height: 76%;
+}
+
+
+}
+
+
+
+                
